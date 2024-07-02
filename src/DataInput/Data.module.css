@@ -1,0 +1,18 @@
+.card {
+  background: rgb(1, 1, 129);
+  opacity: 0.75;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  width: 40%;
+}
+
+.card Button {
+  background-color: rgb(117, 98, 223);
+  border: none;
+}
+
+.card Button:hover {
+  background-color: blue;
+}

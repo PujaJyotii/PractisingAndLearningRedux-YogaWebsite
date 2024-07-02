@@ -1,0 +1,24 @@
+.decoration {
+  margin: 20px auto;
+  width: 50%;
+  background: rgb(1, 1, 129);
+  opacity: 0.75;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.header {
+  font-family: cursive;
+  color: rgb(138, 121, 236);
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  float: left;
+}
