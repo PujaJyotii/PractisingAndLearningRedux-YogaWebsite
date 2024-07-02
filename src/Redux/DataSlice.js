@@ -7,6 +7,20 @@ const DataSlice = createSlice({
     add(state, action) {
       state.list = [...state.list, action.payload];
     },
+    set(state, action) {
+      state.list = action.payload;
+    },
+    delete(state, action) {
+      state.list = state.list.filter((item) => item.id !== action.payload);
+    },
+    update(state, action) {
+      const index = state.list.findIndex(
+        (item) => item.id === action.payload.id
+      );
+      if (index !== -1) {
+        state.list[index] = action.payload;
+      }
+    },
   },
 });
 
