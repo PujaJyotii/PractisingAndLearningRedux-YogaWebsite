@@ -16,3 +16,50 @@
 .card Button:hover {
   background-color: blue;
 }
+
+.card1 {
+  background: rgb(1, 1, 129);
+  opacity: 0.75;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  width: 60%;
+}
+
+.card1 Button {
+  background-color: rgb(117, 98, 223);
+  border: none;
+  margin-left: 5px;
+}
+
+.card1 Button:hover {
+  background-color: blue;
+}
+
+.card1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card1 li {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 5px;
+}
+
+.deco {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deco img {
+  height: 120px;
+  width: 120px;
+}
+
+.card1 li h4 {
+  font-family: cursive;
+}
